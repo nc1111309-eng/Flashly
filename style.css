@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    background-color: yellow;
+    flex-wrap: wrap;
+   position: sticky;
+   top: 0;
+}
+#header-first{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800px;
+background: linear-gradient(blue, red);
+background-clip: text;
+color: transparent;
+
+}
+header select{
+    font-size: 18px;
+    font-weight: 50px;
+    height: 35px;
+    width: 155px;
+     border: none;
+     background-color: transparent;
+     cursor: pointer;
+     
+}
+ header input{
+    height: 35px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+    header button{
+height: 30px;
+     width: 80px;
+     background-color: rgb(106, 228, 106);
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+ }
+ header button:hover{
+     height: 30px;
+     width: 80px;
+     background: #ef6644;
+     color: #070702;
+     border-radius: 10px;
+     border: transparent;
+     cursor: pointer;
+ }
+ #img-top{
+    width: 60%;
+    height: 200px;
+
+}
+ #image-second{
+    width: 80%;
+    height: 200px;
+
+ }
+ img{
+    cursor: pointer;
+ }
+
+ #products1{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    
+ }
+ #products2{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    
+ }
+#more{
+justify-content: space-around;
+align-items: baseline;
+}
+ @media (max-width : 800px) {
+    header input{
+        width: 300px;
+    }
+}
+ @media (max-width : 400px){
+    header img{
+        display: none;
+    }
+}
